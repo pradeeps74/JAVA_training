@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+//document object
+//date object
+//history object
+//Array object
+function usingArrays(){
+	//Array using shortcuts
+	var text=['home','client','aboutus','Downloads'];
+	//Array using constructors
+	var city=new Array('chennai','salem','erode');
+	//Array using zero arg constructors
+	var countries=new Array();
+	countries[0]='India';
+	countries[1]='Saudi Arabia';
+	countries[2]='Malysia';
+	
+};
+function writeToFile(){
+	document.write("<ul>");
+	for(eachItem in items){
+		document.write("<li>"+eachItem+"</li>")
+	}
+	document.write("</ul>");
+}
+//Window object
+function usingWindowObj(){
+	window.location="http://www.google.com"
+};
+function windowObjOpen(){
+	window.open('index.html','indexPage')
+}
+function invoke(){
+	var goToGoogleButton=document.getElementById("googleBtn");
+	goToGoogleButton.addEventListener('click',usingWindowObj);
+	
+	var openWindowButton=document.getElementById("openBtn");
+	openWindowButton.addEventListener('click',windowObjOpen);
+	
+	var printButton=document.getElementById("printBtn");
+	printButton.addEventListener('click',function(){
+		window.print();
+	});
+};
+(function(){
+	invoke();
+})()

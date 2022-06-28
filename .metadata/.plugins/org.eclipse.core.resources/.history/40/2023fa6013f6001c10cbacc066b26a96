@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event Handling</title>
+</head>
+<body>
+<form action="">
+<label for="firstName">First Name</label>
+<input type="text" name="firstName" id="firstName"/>
+<label for="lastName">Last Name</label>
+<input type="text" name="lastName" id="lastName"/>
+</form>
+<script type="text/javascript">
+var firstName=document.getElementById("firstName")
+firstName.addEventListener('blur',function(){
+	var nameEntered=firstName.value;
+	alert(nameEntered);
+});
+var lastName=document.getElementById("lastName")</script>
+</body>
+</html>

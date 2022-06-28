@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Transactions</title>
+</head>
+<body>
+<h1>Atm Transactions</h1>
+<form  method="post">  
+Card Number:<input type="text" name="cardno" placeholder="enter the card number"><br>   
+Pin:<input type="text" name="pinno" placeholder="enter pin number"><br>
+Request:
+<select name="Request" style="width:150px">  
+<option>Withdraw</option>  
+<option>Balance Enquiry</option>  
+<option>Mini Statement</option>  
+<option>CheckBook Request</option> 
+</select><br><br>
+<input type="submit" value="RequestSubmit" formaction="StatementServlet">
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+	<div>Learning java Script</div>
+	<p id="msg">Master of Java</p>
+	<button id="city">City</button>
+	<script type="text/javascript" src="scripts/quickStart.js"></script>
+	<script type="text/javascript">
+		/* display();
+		app.display(); 
+		app.readFile();*/
+		app.attachEvent();
+	</script>
+</body>
+</html>

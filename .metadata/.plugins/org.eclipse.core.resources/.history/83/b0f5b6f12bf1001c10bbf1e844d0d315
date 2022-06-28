@@ -1,0 +1,16 @@
+package com.demo.ifaces;
+
+import java.util.List;
+import com.example.demo.model.*;
+
+
+
+
+
+public interface CrudRepository<T> {
+	public T add(T t);
+	public List<T> findAll();
+	public Book findByName(String bookName);
+	//public T  insert(T t);
+}
+ 

@@ -1,0 +1,17 @@
+package com.practice.service;
+
+import java.sql.Connection;
+import com.practice.iface.CrudRepository;
+import com.practice.model.Employee;
+
+public class EmployeeService {
+	private Connection connection;
+	private CrudRepository<Employee> repo;
+
+	public Employee add(Employee entity) {
+		return this.repo.add(entity);
+	}
+	public List<Employee> findAll(){
+		return this.repo.findAll()
+	}
+}

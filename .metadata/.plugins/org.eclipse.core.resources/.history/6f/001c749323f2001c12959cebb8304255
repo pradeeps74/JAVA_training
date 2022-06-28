@@ -1,0 +1,27 @@
+@charset "UTF-8";
+h4 {
+	color: rgb(46, 52, 54);
+}
+.centerText{
+	text-align: center;
+}
+
+.light{
+	color: black
+	
+}
+.dark{
+	color: green
+}
+.darkest{
+	color: blue
+}
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+th,tr,td{
+	border: 1px solid black
+}

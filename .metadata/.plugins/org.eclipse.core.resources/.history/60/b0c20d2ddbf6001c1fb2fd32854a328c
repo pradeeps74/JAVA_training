@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+function incFontSize(){
+	var para=document.getElementById("firstPara");
+	para.setAttribute("class","fontSizeUp");
+}
+function addClickEvent(){
+	var imgRef=document.getElementById("increment");
+	imgRef.addEventListener('click',incFontSize);
+}
+(function(){
+	addClickEvent();
+})();

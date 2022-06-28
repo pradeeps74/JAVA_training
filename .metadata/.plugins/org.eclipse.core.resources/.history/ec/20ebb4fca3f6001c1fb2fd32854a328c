@@ -1,0 +1,20 @@
+/**
+ *  Examples on Different ways of writing java script functions
+ */
+function simple(){
+	
+	console.log('Hello World');
+}
+
+
+function withArgs(name){
+	if(name==null){
+		document.write('welcome Guest');
+	}
+	document.write('welcome'+" "+name)
+}
+(function(){
+	simple();
+	withArgs('pradeep');
+	withArgs();
+})();

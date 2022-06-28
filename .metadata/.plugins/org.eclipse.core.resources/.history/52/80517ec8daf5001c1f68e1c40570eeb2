@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Styling</title>
+<link href="Styles/style.css" type="text/css" rel="styleSheet">
+</head>
+<body>
+<h1 id="title">Style with CSS</h1>
+<h4>Peace</h4>
+
+<div class="bigBox">Chennai</div>
+<!-- Content will not be shown but an empty space will be shown -->
+<div class="bigBox" style="visibility: hidden;">Salem</div>
+<!-- Content will not be shown space will be adjusted/occupied by the next element -->
+<div class="bigBox" style="display: none;">Erode</div>
+<div class="bigBox effect">Coimbatore</div>
+<img alt="white" src="images/white.jpeg" style="width:300px;height: 200px;">
+<img alt="book1" src="images/book1.jpeg">
+</body>
+</html>

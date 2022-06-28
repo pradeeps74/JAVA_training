@@ -1,0 +1,5 @@
+package com.training.utils;//utils means utility 
+import java.sql.*;
+public class ConnectionFactory {
+
+}

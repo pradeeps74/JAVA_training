@@ -1,0 +1,10 @@
+/**
+ *  Examples on Different ways of writing java script functions
+ */
+function simple(){
+	
+	console.log("Hello World");
+}
+(function(){
+	simple();
+})();

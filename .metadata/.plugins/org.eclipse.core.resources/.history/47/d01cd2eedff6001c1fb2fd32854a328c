@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+function incFontSize(){
+	var para=document.getElementById("firstPara");
+	para.setAttribute("class","fontSizeUp");
+	//para.setAttribute("style","font-size-adjust:"+"inherit");
+}
+function addClickEvent(){
+	var imgRef=document.getElementById("increment");
+	imgRef.addEventListener('click',incFontSize);
+}
+(function(){
+	addClickEvent();
+})();
+function decFontSize(){
+	var para=document.getElementById("firstPara");
+	para.setAttribute("class","fontSizeDown");
+	//para.setAttribute("style","font-size-adjust:"+"inherit");
+}
+function decClickEvent(){
+	var imgRef=document.getElementById("decrement");
+	imgRef.addEventListener('click',decFontSize);
+}
+(function(){
+	decClickEvent();
+})();

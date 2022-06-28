@@ -1,0 +1,13 @@
+package com.practice.repository;
+
+import com.practice.iface.CrudRepository;
+
+public class EmployeeRepositoryDb implements CrudRepository<Employee> {
+
+	@Override
+	public T add(T t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

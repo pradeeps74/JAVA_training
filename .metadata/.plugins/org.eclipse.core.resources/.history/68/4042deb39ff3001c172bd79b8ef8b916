@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Form</title>
+<style type="text/css">
+.form {
+
+	margin: auto;
+	width: 220px;
+}
+</style>
+</head>
+<body>
+	<h1>Employee Form</h1>
+	<form action="employee">
+		<div>
+			<label for="empId">Employee Id</label> <input type="text" id="empId"
+				name="empId" />
+		</div>
+		<div>
+			<label for="empName">Employee Name</label> <input type="text"
+				id="empName" name="empName" />
+		</div>
+		<div>
+			<label for="phNo">Phone Number</label> <input type="tel" id="phNo"
+				name="phNo" pattern="[0-9]{10}" />
+		</div>
+		<div>
+			<label for="salary">Salary</label> <input type="text" id="salary"
+				name="salary" />
+		</div>
+		<div>
+			<input type="submit" value="submit"> <input type="reset"
+				value="reset">
+		</div>
+
+	</form>
+
+</body>
+</html>

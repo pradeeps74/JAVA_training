@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+var name='Global Hospital';
+ phone=450778590;
+function show(){
+	console.log("Name :"+name);
+	console.log("phone no"+phone);
+}

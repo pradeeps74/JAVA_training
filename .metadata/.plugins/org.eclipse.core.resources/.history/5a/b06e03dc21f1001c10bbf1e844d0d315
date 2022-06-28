@@ -1,0 +1,44 @@
+package com.demo.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.sql.*;
+import com.demo.ifaces.CrudRepository;
+import com.example.demo.model.Book;
+
+public class BookRepositoryWithDb implements CrudRepository<Book>  {
+private Connection connection ;
+	public BookRepositoryWithDb(Connection connection) {
+	super();
+	this.connection = connection;
+}
+
+	@Override
+	public Book add(Book t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Book> findAll() {
+		String sql = "select * from book";
+		List<Book> bookList=new ArrayList();
+		try {
+			PreparedStatement pstmt=connection.prepareStatement(sql);
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				
+			}
+		}
+		return bookList;
+	}
+
+	@Override
+	public Book findByName(String bookName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

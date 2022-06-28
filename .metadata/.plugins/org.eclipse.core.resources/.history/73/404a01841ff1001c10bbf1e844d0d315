@@ -1,0 +1,7 @@
+package com.demo.repository;
+
+import com.demo.ifaces.CrudRepository;
+
+public class BookRepositoryWithDb implements CrudRepository<T> {
+
+}

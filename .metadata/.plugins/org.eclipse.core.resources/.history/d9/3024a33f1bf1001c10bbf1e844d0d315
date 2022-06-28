@@ -1,0 +1,21 @@
+package com.training.utils;//utils means utility 
+
+import java.sql.*;
+import java.util.ResourceBundle;
+
+public class ConnectionFactory {
+	public static Connection getPostgresqlConnection() {
+		Connection con = null;
+		ResourceBundle labels =ResourceBundle.getBundle("application");
+		try {
+			con=DriverManager.getConnection(url,username,password));
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		
+		return con;
+	}
+
+}

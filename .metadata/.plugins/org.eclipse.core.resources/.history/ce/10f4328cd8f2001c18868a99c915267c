@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="scripts/quickStart.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+display();
+app.display();</script>
+<div>Learning java Script</div>
+<p id="msg">Master of Java</p>
+</body>
+</html>

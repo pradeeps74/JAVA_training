@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+var name='Global Hospital';
+ phone=450778590;
+function show(){
+	console.log("Name :"+name);
+	console.log("phone no : = "+phone);
+	var localBranch='k.k.nagar';
+	console.log("Branch :="+localBranch);
+}
+function invoke(){
+	show();
+}
+invoke();

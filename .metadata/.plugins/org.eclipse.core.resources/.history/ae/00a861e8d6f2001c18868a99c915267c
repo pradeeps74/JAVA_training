@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+function display(){
+	alert("Welcome to java script training")
+}
+var app={}
+app.display=function(){
+	
+	alert("annonymous function called")
+}

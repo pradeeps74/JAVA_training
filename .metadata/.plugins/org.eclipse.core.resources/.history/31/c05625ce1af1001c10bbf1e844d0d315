@@ -1,0 +1,9 @@
+package com.training.utils;//utils means utility 
+import java.sql.*;
+public class ConnectionFactory {
+	public static Connection getPostgresqlConnection() {
+Connection con = null;
+return con;
+	}
+
+}

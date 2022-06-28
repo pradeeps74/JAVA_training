@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event Handling</title>
+</head>
+<body>
+<form action="">
+<label for="firstName">First Name</label>
+<input type="text" name="firstName" id="firstName"/>
+<label for="lastName">Last Name</label>
+<input type="text" name="lastName" id="lastName"/>
+<label for="code">Code</label>
+<input type="text" name="code" id="code">
+</form>
+<script type="text/javascript">
+var firstName=document.getElementById("firstName")
+var lastName=document.getElementById("lastName")
+var code =document.getElementById("code");
+firstName.addEventListener('blur',function(){
+	var nameEntered=firstName.subStr(0,3);
+	var nameEntered1=lastName.subStr(4,6);
+});
+
+//create a code which is the combination of first three character of firstName
+//and last three character of last name
+//place the genrated code in the code field
+lastName.addEventListener()</script>
+</body>
+</html>

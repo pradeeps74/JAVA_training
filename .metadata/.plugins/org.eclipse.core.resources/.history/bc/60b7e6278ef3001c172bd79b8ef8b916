@@ -1,0 +1,23 @@
+package com.practice.repository;
+
+import java.sql.Connection;
+
+import com.practice.iface.CrudRepository;
+import com.practice.model.Employee;
+
+public class EmployeeRepositoryDb implements CrudRepository<Employee> {
+
+	private Connection connection=null;
+	
+	public EmployeeRepositoryDb() {
+		super();
+		this.connection=connection;
+	}
+
+	@Override
+	public Employee add(Employee t) {
+		
+		return null;
+	}
+
+}

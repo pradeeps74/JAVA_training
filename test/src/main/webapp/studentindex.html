@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Student Details</h1>
+<form method="post">
+<table>
+<tr><td>Student Id:</td><td><input type="text" name="id" placeholder="enter student Id"></td></tr>
+<tr><td>Student RollNumber:</td><td><input type="text" name="rollno" placeholder="enter student rollno"></td></tr>
+<tr><td>Student Name:</td><td><input type="text" name="name" placeholder="enter student name"></td></tr>
+<tr><td>Student Age:</td><td><input type="text" name="age" placeholder="enter student age"></td></tr>
+<tr><td>Student Total Marks:</td><td><input type="text" name="marks" placeholder="enter student total marks"></td></tr>
+<tr><td>Grade:</td><td>
+<tr><td><select name="grade" style="width:150px">
+<option>A</option>
+<option>B</option>
+<option>C</option>
+<option>D</option>
+<option>S</option>
+</select></td></tr>
+<tr><td colspan="2"><input type="submit" value="Save" formaction="UpdateServlet"></td></tr>
+</table>
+</form>
+<br>
+<a href="ViewServlet"> View Students list</a>
+</body>
+</html>

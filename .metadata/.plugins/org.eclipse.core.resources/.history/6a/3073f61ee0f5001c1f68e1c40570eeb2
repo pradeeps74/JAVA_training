@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* Global Selectors */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Id Selectors */
+#title{
+	text-align: center;
+	font-family: serif;
+	font-size: 1.2em;
+	color:rgb(136, 138, 133)
+}
+/* Class Selector*/ 
+.bigBox{
+	width: 200px;
+	height: 100px;
+	border: 2px solid green;
+	display: inline-block;
+}
+
+.bigBox.effect{
+	border-radius: 5px 10px 5px 10px;
+	display: inline-block;
+
+	
+}
+/*Attribute selectors */
+img[alt="book1"]{
+	width: 200px;
+	height: 200px;
+	border: 3px solid purple;
+}
+/*Attribute selectors -* stands for contatining anywhere others are ^ and $ */
+img[src*="whi"]{
+	width: 100;
+	height: 100px;
+	border: 3px solid orange;
+}
+/*Adjacent selectors represented by "+" symbol */
+section+p{
+	font-size: 1.4em;
+	font-weight: bolder;
+	color:orange;
+}
+/*Child selector represented by ">" symbol */
+div>p{
+	font-family: cursive;
+	font-weight: lighter;
+	color:#AA11DD;
+}
+/* psuedo class*/
+img:hover {
+	width: 150px;
+	height: 100px;
+}
+#first::first-letter {
+	font-family: cursive;
+	font-size: 1.5em;
+}
+/* Element Selector*/
+table{
+	border: 1px solid orange;
+	border-collapse: collapse;
+}
+/* Group Selector*/
+td,th,tr{
+	border: 1px solid green;
+}

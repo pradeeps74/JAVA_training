@@ -1,0 +1,30 @@
+package com.training.utils;//utils means utility 
+
+import java.sql.*;
+import java.util.ResourceBundle;
+
+public class ConnectionFactory {
+	public static Connection getPostgresqlConnection() {
+		Connection connection = null;
+		ResourceBundle labels =ResourceBundle.getBundle("application");
+		try {
+			String url=labels.getString("datasource.postgres.url");
+			String username=labels.getString("datasource.postgres.username");
+			String password=labels.getString("datasource.postgres.password");
+			String driverClass=labels.getString("datasource.postgres.driverclass");
+			Class.forName(driverClass);
+			
+			//BookService service=new BookService();
+//			Class<?> cls = Class.forName("com.training.example.BookService");
+//			BookService s =(BookService) cls.newInstance();
+			connection=DriverManager.getConnection(url,username,password);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		
+		return connection;
+	}
+
+}

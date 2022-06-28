@@ -1,0 +1,25 @@
+INDEX VERSION 1.4+/home/vastpro/family/Learning1/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1911413787.index
+3496075255.index
+2637103239.index
+3031507467.index
+56191961.index
+3316596282.index
+4166672917.index
+443544751.index
+1455353149.index
+437762878.index
+2089348824.index
+909493393.index
+3584506447.index
+3487665485.index
+1937338709.index
+559444749.index
+2616207917.index
+3618498457.index
+3599271815.index
+631682978.index
+2774168048.index
+2479755810.index
+832871695.index
+729012675.index

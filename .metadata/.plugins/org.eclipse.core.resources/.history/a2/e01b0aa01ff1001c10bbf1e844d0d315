@@ -1,0 +1,30 @@
+package com.demo.repository;
+
+import java.util.List;
+
+import com.demo.ifaces.CrudRepository;
+import com.example.demo.model.Book;
+
+public class BookRepositoryWithDb implements CrudRepository<T> {
+
+	@Override
+	public T add(T t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<T> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Book findByName(String bookName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

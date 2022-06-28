@@ -1,0 +1,6 @@
+package com.practice.iface;
+
+public interface CrudRepository <T>{
+	public  T add(T t);
+
+}

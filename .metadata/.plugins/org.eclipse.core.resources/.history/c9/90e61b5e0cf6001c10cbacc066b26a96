@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<button id="hideBtn">Hide</button>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+. Quos cumque molestias aliquid delectus sed incidunt quidem magnam quas
+ voluptate alias quis laudantium facere nostrum! Molestias nisi provident itaque earum sint?</p>
+</body>
+</html>

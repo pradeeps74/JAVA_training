@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<title>Chuma</title>
+<!-- <link href="images/image.jpg" type="image/jpg" rel="icon"> -->
+<link href="styles/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body class="index">
+<!-- <img src="images/image.jpg" alt="logo of the site" > -->
+<ul>
+	<li><a href="aboutUs.html">About us</a></li>
+	<li><a href="client.html">Clients</a></li>
+	<li><a href="contact.html">contact</a></li>
+</ul>
+</body>
+</html>

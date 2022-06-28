@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.fontSizeUp{
+
+font-size-adjust: inherit;
+}
+.iIcon{
+width:30px;
+height: 30px;
+
+}
+.iDcon{
+width:30px;
+height: 30px;
+}
+</style>
+
+</head>
+<body>
+<img alt="Increase Font Size" src="images/increase.png" id="increment" class="iIcon">
+<img alt="Decrease Font Size" src="images/decrease.png" id="decrement" class="iDcon">
+<p id="firstPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet 
+tempora quasi corrupti vero deserunt nihil voluptate aliquam asperiores
+ quis necessitatibus rerum odio cum ipsam quam quo vel dolores ullam ea!/p>
+ <script type="text/javascript" src="scripts/dom_pass.js"></script>
+</body>
+</html>

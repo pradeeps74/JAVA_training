@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.outer{
+	width: 250px;
+	height: 350px;
+	border: 1px solid magento;
+}
+.inner{
+	width: 200px;
+	height: 150px;
+	border: 2px dotted black;
+}
+.child{
+	width: 50px;
+	height: 50px;
+	border: 4px solid blue;
+	display: inline;
+	float: left;
+}

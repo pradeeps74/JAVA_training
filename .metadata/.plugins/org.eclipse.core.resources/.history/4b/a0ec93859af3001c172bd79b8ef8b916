@@ -1,0 +1,13 @@
+package com.practice.service;
+
+import java.sql.Connection;
+
+import com.practice.iface.CrudRepository;
+
+
+
+public class EmployeeService {
+	private Connection connection;
+	private CrudRepository<Employee> repo;
+
+}

@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+//document object
+//date object
+//history object
+//String object
+//window object
+
+function usingWindowObj(){
+	window.location="htttp://www.google.com"
+};
+function invoke(){
+	 goToGoogleButton=document.getElementById("googleBtn");
+	goToGoogleButton.addEventListener
+};

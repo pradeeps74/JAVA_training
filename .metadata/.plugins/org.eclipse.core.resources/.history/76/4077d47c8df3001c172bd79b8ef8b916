@@ -1,0 +1,14 @@
+package com.practice.repository;
+
+import com.practice.iface.CrudRepository;
+import com.practice.model.Employee;
+
+public class EmployeeRepositoryDb implements CrudRepository<Employee> {
+
+	@Override
+	public Employee add(Employee t) {
+		
+		return null;
+	}
+
+}

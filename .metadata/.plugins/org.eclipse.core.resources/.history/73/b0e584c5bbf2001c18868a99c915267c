@@ -1,0 +1,34 @@
+@charset "UTF-8";
+h4 {
+	color :  grey;
+}
+.centerText{
+	text-align: center;
+}
+
+.light{
+	color: black
+	
+}
+.dark{
+	color: #2e3436
+}
+.darkest{
+	color: #a40000
+}
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+th,tr,td{
+	border: 1px solid black
+}
+.background{
+	background-image: url("../images/dummy.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	

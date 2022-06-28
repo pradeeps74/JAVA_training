@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap</title>
+<link rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+ crossorigin="anonymous">
+ <style>
+.smallImage{
+width: 100px;
+height:100px;
+border: 1px solid black;
+border-radius: 10px;
+}
+ul>li{
+
+display: inline;
+margin-left: 50PX;
+}
+a{
+text-decoration: none;
+font-size: 1.2em;
+}
+
+</style>
+</head>
+<body>
+<h1>Using CSS Bootstrap</h1>
+<div class="container-fluid">
+<div class="row">
+		<div class="col-lg-4">
+		
+		<img alt="Image of the book" src="images/book2.jpeg" class="smallImage left" >
+		</div>
+		<div class="col-lg-4"><h1>Gandhi library</h1></div>
+		<div class="col-lg-4">
+			<img alt="Image of the book" src="images/book1.jpeg" class="smallImage right" >
+		</div>
+		</div>
+		<div class="row">
+		
+		<nav class="col-md-12">
+		<ul style="margin-left: 70PX">
+	<li><a href="aboutUs.html">About us</a></li>
+	<li><a href="client.html">Clients</a></li>
+	<li><a href="contact.html">contact</a></li>
+</ul>
+		</nav>
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+				<div class="col-md-8"></div>
+			
+			<form action="client.html" method="get" >
+				<div class="form-group">
+				     <label for="firstName">First Name</label>
+					 <input type="text"name="firstName" required="required" id="firstName" class="form-control" />
+			    </div> 
+				<div class="form-group">
+					  <label for="email">Email</label> <input type="email" name="email"
+			           multiple="multiple" class="form-control" class="form-control" /> 
+			    </div>
+			    <div class="form-group">
+			           <label for="birthDate">DOB</label> 
+			           <input type="date" name="dateBirth" id="birthDate" class="form-control"/>
+			    </div>
+			    <div class="form-group">
+			           <label for="mobile">MobileNo</label> 
+			           <input type="tel" name="phoneNumber" id="mobile" pattern="[0-9]{10}" class="form-control" />
+			    </div>
+			    <div class="form-group">
+			           <label for="qualification">Qualification</label></div>
+			           <div>  
+			            <input type="radio"
+						value="Under Graduate" name="qualification" id="ug" class="form-control"/>
+						<label for="ug" style="margin-left: 30px">Under graduate</label></div> 
+						  <div> 
+						<input type="radio" value="Post Graduate" name="qualification" id="pg" class="form-control"/>
+						<label for="pg" style="margin-left: 30px">Post graduate</label>
+				</div>
+				<div class="form-group"><label for="skill">Skill Sets</label></div>
+					<div>	
+						<input type="checkbox" value="java" name="skill" id="java" />
+						<label for="java" style="margin-left: 30px">Java</label> 
+						 </div>
+						<div>
+						 <input type="checkbox" value="python" name="skill" id="python" />
+						 <label for="python" style="margin-left: 30px">Python</label></div>
+			    <div class="form-group">
+			             <label for="notes">Notes</label>
+			    </div>
+				 <div class="form-group">
+					 <textarea name="notes" cols="30" rows="5" id="notes"
+						placeholder="Enter a brief summary about You" class="form-control"></textarea>
+				</div>
+				<div class="form-group">
+				<input type="reset" value="Clear" class="btn btn-danger"/>
+					 <input type="submit" value="Submit" class="btn btn-sucess">
+				</div>
+				</form>
+		</div>
+</div>
+</body>
+</html>

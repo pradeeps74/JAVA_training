@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About us</title>
+</head>
+<body>
+<a href="#p1">up</a>
+<a href="#p5">down</a>
+<p id="p1" title="about founder" style="color:green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt aperiam fugit placeat illum corporis esse eius ratione recusandae voluptate
+ a natus debitis autem fugiat nulla blanditiis magnam at nam.</p>
+ 
+ <p id="p2" title="about website" style="color:lavendar" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt aperiam fugit placeat illum corporis esse eius ratione recusandae voluptate
+ a natus debitis autem fugiat nulla blanditiis magnam at nam.</p>
+ 
+ <p id="p3" title="about book" style="color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt aperiam fugit placeat illum corporis esse eius ratione recusandae voluptate
+ a natus debitis autem fugiat nulla blanditiis magnam at nam.</p>
+ 
+ <p id="p4" title="about nothing" style="color:black" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt aperiam fugit placeat illum corporis esse eius ratione recusandae voluptate
+ a natus debitis autem fugiat nulla blanditiis magnam at nam.</p>
+ 
+ <p id="p5" title="about clients" style="color:tomato">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt aperiam fugit placeat illum corporis esse eius ratione recusandae voluptate
+ a natus debitis autem fugiat nulla blanditiis magnam at nam.</p>
+ 
+
+ 
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.outer{
+	width: 650px;
+	height: 450px;
+	border: 1px solid magento;
+	background-color: gray;
+}
+.inner{
+	width: 500px;
+	height: 150px;
+	border: 2px dotted black;
+	background-color:teal;
+}
+.child{
+	height: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+#child1.child{
+	margin-left: 0px;
+margin-top: 0px;
+border-top-width: 0px;
+width: 50px;
+height: 50px;
+}
+#child2.child{
+	margin-left: 162px;
+margin-right: 50px;
+margin-top: 68px;
+}
+#child3.child{
+  margin-left: 114px;
+  margin-top: 145px;
+  margin-right: 0px;
+  padding-top: 0px;
+}

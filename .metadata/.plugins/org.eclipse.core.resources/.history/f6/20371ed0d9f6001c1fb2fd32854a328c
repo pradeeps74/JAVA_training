@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.icon{
+width:20px;
+height: 20px;
+}</style>
+</head>
+<body>
+<img alt="Increase Font Size" src="images/increase.png" id="increment">
+<p id="firstPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet 
+tempora quasi corrupti vero deserunt nihil voluptate aliquam asperiores
+ quis necessitatibus rerum odio cum ipsam quam quo vel dolores ullam ea!/p>
+</body>
+</html>
